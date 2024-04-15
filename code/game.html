@@ -11,6 +11,7 @@
 <body>
 	<div id="container">
 		<h1>Tic Tac Toe</h1>
+		<h3>Next move: <span id="current-player">X</h3>
 		<div id="game-board">
 			<button class="cell" onclick="makeMove(0)"></button>
 			<button class="cell" onclick="makeMove(1)"></button>
@@ -22,6 +23,7 @@
 			<button class="cell" onclick="makeMove(7)"></button>
 			<button class="cell" onclick="makeMove(8)"></button>
 		</div>
+
 		<button id="reset" onclick="resetGame()">Reset Game</button>
 	</div>
 
