@@ -13,6 +13,7 @@ function makeMove(index) {
 
 function togglePlayer() {
 	currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
+	document.getElementById("current-player").innerHTML = currentPlayer;
 }
 
 function checkWin() {
